@@ -4,13 +4,13 @@ import router from './router'
 import { initializeApp } from "firebase/app"
 
 const config = {
-  apiKey: "AIzaSyBPPFyHp1-fD5H9u0hKXUVyErajyJab9-0",
-  authDomain: "pj-running-ab248.firebaseapp.com",
-  projectId: "pj-running-ab248",
-  storageBucket: "pj-running-ab248.appspot.com",
-  messagingSenderId: "687958888236",
-  appId: "1:687958888236:web:bc973fdc3da18c22112689",
-  measurementId: "G-HERHWMJ06T"
+  apiKey: "AIzaSyANcBVyaUiQEjgdouRyGMnULzvY63ePH04",
+  authDomain: "vue-auth-a6707.firebaseapp.com",
+  projectId: "vue-auth-a6707",
+  storageBucket: "vue-auth-a6707.appspot.com",
+  messagingSenderId: "28380927058",
+  appId: "1:28380927058:web:9a85fd32f55ab77d827b8b",
+  measurementId: "G-2C72N773N3"
 }
 initializeApp(config)
 

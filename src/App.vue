@@ -17,7 +17,7 @@ export default{
     return {
       logined: false
     }
-  }
+  },
   mounted(){
     const auth = getAuth();
     onAuthStateChanged(auth, (user) => {

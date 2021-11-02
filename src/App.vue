@@ -22,7 +22,7 @@ export default{
       logined: false
     }
   },
-  (){
+  created() {
     const auth = getAuth();
     onAuthStateChanged(auth, (user) => {
       if (user) {
